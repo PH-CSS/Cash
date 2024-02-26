@@ -1,0 +1,258 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+:root{
+    --pri-color:#ffffff;
+    --seg-color:#000000;
+
+}
+
+html{
+    font-family: 'Merriweather', serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+scroll-behavior:smooth;
+}
+
+   
+
+
+
+
+    .banco_Inicial{
+        background-image: url(../CASH/BackStatc.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 92vh;
+        width: 96%;
+        margin-top: 70px;
+        margin-left: 2%;
+        border-radius: 50px;
+        overflow-y: hidden; 
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    .banco_Inicial:hover{
+        background-image: url(../CASH/BackHover.webp);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+
+
+        .Info_content{    
+            display: flex;   
+            margin-top: 40px;  
+            height: 250px;
+            width: 600px;
+            background-color: var(--seg-color);
+            border-top-right-radius: 50px;
+        }
+        
+        .text{
+            display: flex;
+    width: 90%;
+    margin-left: 3%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+        }
+    
+
+        .infs{
+            cursor: pointer;
+        content: '';
+        width: 60PX;
+        height: 60px;        
+        background-color: var(--pri-color);
+        position: absolute;
+        margin-left: 12px;
+        margin-top: 100px;
+        border-radius: 100%;
+        overflow-y: hidden;
+        background-image: url(../CASH/Traco.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+
+
+
+
+            .Mamb_by_me{
+                padding-top: 30vh;
+                display: grid;
+                place-items: center;
+                padding-bottom: 40vh;
+            }
+
+            .Mamb_by_me h3{
+                font-size: 12rem;            
+            }
+
+            .Mamb_by_me H4{
+                font-size: 6rem;
+                color: var(--seg-color);
+                background-color: var(--pri-color);
+                border-radius: 30px;
+        
+            }
+
+
+
+
+            .balling{
+                height: 600px;
+                width: 600px;
+                background: rgb(17,17,17);
+background: linear-gradient(126deg, rgba(17,17,17,1) 0%, rgba(255, 109, 231, 0.198) 38%, rgba(229,219,214,0.1699054621848739) 78%);
+           border-radius: 50%;
+           position: absolute;
+           margin-top: 400px;
+
+}
+
+
+
+.creation{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8vh;
+    margin-top: -100px;
+}
+
+
+
+.creation h2 {
+   font-size: 2rem;
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    text-orientation: upright;
+}
+
+.creation .um{
+    font-size: 2rem;
+     writing-mode: vertical-rl;
+     text-transform: uppercase;
+ }
+
+
+
+
+
+
+
+
+
+        .info_cards_cash{
+            display: flex;
+            height: auto;
+            width: 100%;
+        }
+
+
+
+
+       .first{
+        display: grid;
+        place-items: center;
+        align-items: flex-start;
+height: 1000px;
+width: 33%;
+       } 
+
+                    .two{
+                        height: 1000px;
+                        width: 33%;
+                        display: grid;
+                        place-items: center;
+                    }
+
+
+
+                            .tree{
+                                height: 1000px;
+                                width: 33%;
+                                display: grid;
+                                place-items: center;
+                            }
+
+
+
+
+
+
+        .inf{
+            width:450px ;
+            height: 600px;
+            background-color:rgba(255, 109, 231, 0.198) ;
+            border-radius: 25px;
+        }
+
+        .inf2{
+            width:450px ;
+            height: 600px;
+            background-color: rgba(255, 214, 193, 0.747);
+            border-radius: 25px;
+
+        }
+
+
+
+
+                .color{
+                    height: 30%;
+                    width: 100%;
+                    background-color: var(--seg-color);
+                    border-top-right-radius: 40px;
+                    border-top-left-radius: 40px;
+                }
+
+
+                
+                .content{
+                    position: absolute;
+                    height: 550px;
+                    width: 370px;
+                    margin-left: 40px;
+                    background-color: var(--pri-color);
+                    border-radius: 50px;
+                }
+        
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+        

@@ -1,0 +1,54 @@
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 7rem;  
+}
+body{
+    background-color: var(--seg-color);
+    color: var(--pri-color)
+}
+
+
+    .corpo{
+        height: 100%;
+        width: 96vw;
+        margin-top: 2vh;
+        padding-left: 2vw;
+        background-color: transparent;
+        content: '';
+    }
+
+    
+    
+
+    .log{
+        content: url(..//CASH/CA$H.png);
+       margin-left: 5vw;
+    }
+
+
+        .cabeca{
+            background-color: transparent;
+            width: 90%;
+            height: 200px;
+           position: absolute;
+        }
+
+
+        .cabeca:hover .banco_Inicial{
+            background-image: url(../CASH/BackStatc.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+                .cerebro{
+                    background-color: transparent;
+                    margin: 1%;
+                    margin-top: 0;
+                    position: absolute;
+                    width: 100%;
+                }
